@@ -13,7 +13,27 @@ function App() {
           <Dictionary defaultKeyword="beach" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Lindsay Oshiro</small>
+          <small>
+            Open-sourced on{" "}
+            <a
+              href="https://github.com/LinOshiro/dictionary-project"
+              target="_blank"
+              rel="nooppener noreferrer"
+            >
+              GitHub{" "}
+            </a>
+            and{" "}
+            <small>
+              <a
+                href="https://celebrated-lolly-55ad8d.netlify.app/"
+                target="_blank"
+                rel="nooppener noreferrer"
+              >
+                hosted on Netlify
+              </a>
+            </small>{" "}
+            by Lindsay Oshiro
+          </small>
         </footer>
       </div>
     </div>
